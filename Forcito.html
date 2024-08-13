@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura Repetitiva</title>
+</head>
+<body>
+    <h1>Imprimiendo el contenido de un arreglo</h1>
+    <script>
+let arreglo, conteo, promediio;
+alert("Opciones");
+ servicio=parseInt(prompt("Ingrese \n1-arreglo \n2-conteo \n3-promedio"));
+
+ while(Opciones<1 || Opciones>3)
+     {
+         Opciones=parseInt(prompt("Ingrese \n1-arreglo \n2-conteo \n3-promedio"));
+     };
+
+     forma=parseInt(prompt("Ingrese \n1-arreglo \n2-conteo \n3-promedio"));
+     while(forma<1 || forma>2)
+         {
+             forma=parseInt(prompt("Ingrese la forma de salida \n 1-yes \n2-no"));
+         };
+         //procesos
+         switch(servicio){
+             case 1:
+                 arreglo=50;
+                 break;
+                 
+             case 2:
+                 conteo=25;
+                 break; 
+              
+             case 3:
+                 promediio=35;
+                 break;  
+                 
+         };
+
+         //impresion
+         
+         if(forma==1 && servicio==1)
+         {
+             document.write ("Usted se hizo un alisado <br>");
+             document.write  ("Usted a canselado con tarjeta de credito <br>");
+             document.write  ("El costo inicial del servicio es de"+costo+"<br>");  
+             document.write ("Se le hara un recargo del 10%"+(costo*0.10)+"<br>");  
+             document.write ("El pago total sera de"+(costo*1.10));
+             }
+             else if(forma==1 && servicio==2)
+             {
+             document.write ("Usted se hizo uñas <br>");
+             document.write  ("Usted a canselado con tarjeta de credito <br>");
+             document.write  ("El costo inicial del servicio es de"+costo+"<br>");  
+             document.write ("Se le hara un recargo del 10%"+(costo*0.10)+"<br>");  
+             document.write ("El pago total sera de"+(costo*1.10));
+             }
+             else if(forma==1 && servicio==3){
+             document.write ("Usted se hizo un tinte <br>");
+             document.write  ("Usted a canselado con tarjeta de credito <br>");
+             document.write  ("El costo inicial del servicio es de"+costo+"<br>");  
+             document.write ("Se le hara un recargo del 10%"+(costo*0.10)+"<br>");  
+             document.write ("El pago total sera de"+(costo*1.10));
+             }
+             else if(forma==2 && servicio==1){
+             document.write ("Usted se hizo un alisado <br>");
+             document.write  ("Usted a canselado con tarjeta de credito <br>");
+             document.write ("El pago total sera de"+(costo));
+             }
+             else if(forma==2 && servicio==2){
+             document.write ("Usted se hizo uñas <br>");
+             document.write  ("Usted a canselado con tarjeta de credito <br>");
+             document.write ("El pago total sera de"+(costo));
+             }
+             else if(forma==2 && servicio==3){
+             document.write ("Usted se hizo un tinte <br>");
+             document.write  ("Usted a canselado con tarjeta de credito <br>");
+             document.write ("El pago total sera de"+(costo));
+             }             
+        var edades =[10, 18, 60, 27];
+        var suma=0, promedio=0;
+        var mayor=0, menor=0;
+        for(let index=0; index < edades.length; index++){
+        if(edades[index]>=18)
+        {
+            mayor++;
+        }
+        else{
+            menor++;
+        }
+           }//fin for
+
+            document.write("La cantidad de edades menores a 18 son", menor,"<br>");
+            document.write("La cantidad de edades mayores a 18 son", mayor,"<br>");
+
+    for (let index = 0; index < edades.length; index++) {
+    suma=suma+edades[index];
+
+}
+promedio=suma/edades.length;
+document.write("La edad promedio es", promedio.toFixed(2));
+
+
+
+document.write("Imprimiendo elcontenido del arreglo");
+for (let index = 0; index < edades.length; index++) {
+    
+    document.writeln(edades[index]);
+    
+}
+
+
+    </script>
+</body>
+</html>

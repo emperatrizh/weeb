@@ -1,0 +1,58 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 20px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header img {
+    width: 100px;
+    float: left;
+}
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+.header h2 {
+    font-size: 20px;
+    margin: 0;
+}
+.header .photo {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    float: right;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section-title {
+    background-color: #e6f5d0;
+    padding: 5px;
+    font-weight: bold;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.form-group label {
+    display: inline-block;
+    width: 300px;
+}
+.form-group input {
+    width: 400px;
+}
+.form-group select {
+    width: 200px;
+}
+.checkbox-group {
+    display: inline-block;
+    margin-right: 20px;
+}
+</style>
